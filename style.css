@@ -1,0 +1,38 @@
+
+
+.box_items{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 35px 150px 35px;
+    grid-template-columns: 320px 320px 320px;
+
+    grid-template-areas:
+            "quad  line1 line2"
+            "quad  rect rect"
+            "quad  line3 line4"
+    ;
+}
+.box_color{
+
+    border: 1px solid #000;
+}
+.box_grid-quad{
+    grid-area: quad;
+}
+
+.box_grid-rect{
+  grid-area: rect;
+}
+
+.box_grid-line1{
+    grid-area: line1;
+}
+.box_grid-line2{
+    grid-area: line2;
+}
+.box_grid-line3{
+    grid-area: line3;
+}
+.box_grid-line4{
+    grid-area: line4;
+}
