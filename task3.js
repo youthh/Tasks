@@ -37,4 +37,4 @@ const bar = (n) => {
 }
 
 
-console.log(bar(3))
+console.log(bar(5))
